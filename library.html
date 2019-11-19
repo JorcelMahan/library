@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Library</title>
+    <link rel="stylesheet" href="library.css">
+</head>
+<body>
+<button id="btnModal">Add Book</button>
+<!--modal-->
+<div id="myModal" class="modal">
+    <div class="modal-content">
+        <form>
+            <div class="modal-header">
+                <span class="close">&times;</span>
+                <h2>Add Book to library</h2>
+            </div>
+            <div class="modal-body">
+                <div class="form-group">
+                    <label>
+                        <input type="text" placeholder="title" id="title" class="form-control" autofocus>
+                    </label>
+                </div>
+                <div  class="form-group">
+                    <label>
+                        <input type="text" placeholder="author" id="author" class="form-control">
+                    </label>
+                </div>
+                <div  class="form-group">
+                    <label>
+                        <input type="number" placeholder="number of pages" id="numPages" class="form-control">
+                    </label>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button id="btnAddBook">Add new Book</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+
+<div class="container">
+
+</div>
+
+<script src="library.js"></script>
+</body>
+</html>
